@@ -5,6 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+$routes->get('/', 'Home::index');
 
 $routes->get('/brands', 'Cars::getAllBrands'); //List all brands
 $routes->get('/brands/(:num)/models', 'Cars::getModelsByBrand/$1'); //List all models of the brand

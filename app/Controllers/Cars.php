@@ -9,8 +9,9 @@ use App\Models\ModelsModel;
 
 class Cars extends ResourceController
 {
-    public function index(){
-        // Default method.
+    public function index(): string
+    {
+        return view('welcome_message');
     }
     
     public function getAllBrands(){

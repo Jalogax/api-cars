@@ -14,15 +14,15 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+ app.baseURL = 'https://metal-coil-453906-u9.uc.r.appspot.com/'
 # If you have trouble with `.`, you could also use `_`.
-# app_baseURL = ''
+ app_baseURL = 'https://metal-coil-453906-u9.uc.r.appspot.com/'
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
 
@@ -30,13 +30,14 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
+# database.default.hostname = 35.184.223.227
+# database.default.database = db_cars
 # database.default.username = root
-# database.default.password = root
+# database.default.password = N14S&"oIRCmaAxM/
 # database.default.DBDriver = MySQLi
 # database.default.DBPrefix =
 # database.default.port = 3306
+
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 # database.tests.hostname = localhost
